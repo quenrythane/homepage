@@ -34,7 +34,65 @@
                 Korsan chciał mieć zdjęcię, więc dodaje zdjęcie <br>
                 <img src="pikachu.jpg" alt="detektyw pikachu">
             </article>
-        </section>
+		</section>
+		<section>
+			<article>
+				<h3>Lekcja 04.02 Jest GIT</h3>
+
+			<p>- Git to jak **check pointy**- po dojściu do jakiegoś punktu robisz zapis. I od teraz, jeśli w dalszej pracy **coś zjebiesz** to zawsze **możesz  wrócić** do checkpointu</p>
+			<p>- Git składa się z **repozytorium = nasz katalog = nasz projek**</p>
+			<p>- Co to jest branch master?</p>
+			<p>- Git komendy: <br>
+				- git --version<br>
+				- git config --global user.name "Artur Babiński"<br>
+				- git config --global user.email "artur.babinski.g@gmail.com"<br>
+				- git config --get user.name<br>
+				- git config --get user.email<br>
+				- git init- inicjulizuje puste repozytorium w katalogu homepage<br>
+				powstaje nowy plik .git, który jest plikiem ukrytym i trzyma całą historię zmian w sobie<br>
+				- commit = **stan projektu** i opis tego co się zmieniło od ostatniego zapisu<br>
+				np. powstał nowy plik o nazwie "nazwa"<br>
+					   wprowadzono zmiany w pliku o nazwie "index"<br>
+				- **git status**- wypisuje status naszego repozytorium- po prostu informacje o naszym repozytorium. <br>
+				Wymienia też pliki które są w katalogu ale nie są śledzone (tzn, że nie robi odnośnie nich żdanych czynności, w tym nie robi check pointów<br>
+				- **git add .** - dodaje wszystkie pliki które są w katalogu w którym się znajdujemy (jak i w katalogach niżej) do repozytorium (tzn, że od teraz je śledzi)<br>
+				- **git commit -m "message/description"** -Stworzy nowy commit z wiadomością (-m jak message) którą zapisaliśmy w cudzysłowie. Dobrą praktyką jest tą wiadomość pisać po angielsku.<br>
+				Dodatkowo zostanie wygenerowany unikalny #hash danego commita<br>
+				- gitk -pokazuje całą historie repozytorium</p>
+			<p>
+				- Jak często commitować?<br>
+				- najlepiej bardzo często- im więcej tym lepiej<br>
+				- przed commitem zawsze sprawdź, czy twój kod się odpala i działa tak jak chcesz<br>
+			</p>
+
+			<p>- git /git lens <br>
+			Mamy też takiego gita zainstalowanego w wizualnej wersji w naszym edytorze kodu<br>
+			Dzięki temu z poziomu edytora kodu także możemy podglądać co się zmieniało w naszym kodzie<br>
+				- git lens jest dodatkiem do visual studio<br>
+			</p>
+			
+			</article>
+
+
+			<article>
+			<h3> 04.03 GitHub</h3>
+			
+			<p>- Jest to twoja programistyczna wizytówka</p>
+			<p>- Służy do dzielenia się twoim projektem i dawaniem dostępu do kodu ale bez dawania dostępu do twojego dysku/komputera</p>
+			<p>- Tworząc repozytorium dobrą praktyką jest to, by miało taką samą nazwę jak twój katalog z projektem</p>
+				- kopiujemy te linkijki do terminala i klikamy enter:<br>
+				<br>
+					```<br>
+					git remote add origin https://github.com/quenrythane/homepage.git<br>
+					git branch -M master<br>
+					git push -u origin master<br>
+					```<br>
+				<br>
+					- Jeśli na danym urządzeniu jeszcze się nie logowaliśmy to będziemy w terminalu musieli zalogować się do githuba<br>
+						- wpisując na początku nazwę użytkownika i klikając enter<br>
+						- następnie podaj hasło (uwaga! hasło nie będzie się wyświetlać- kiedy będziemy je wpisywać będzie wyglądać jakby nic się nie wpisywało<br>
+			</article>
+		</section>
 	</main>
 
 	<footer>

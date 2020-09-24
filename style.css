@@ -1,0 +1,60 @@
+h1 {
+    background-color: purple;
+    font-size: 100px;
+    color: white;
+}
+
+body {
+    background-color: #fefefe;
+}
+
+h2 {
+    color: #1460aa;
+    font-size: 30px;
+}
+
+.co-to-jest-klasa {
+    background-color: turquoise;
+    color: purple;
+}
+
+#co-to-jest-id {
+    background-color: salmon;
+}
+
+.mainHeader {
+    background-color: purple;
+    text-decoration: none;
+    color: white;
+}
+
+a{color: white;}
+a:link {text-decoration: none}
+a:visited {text-decoration: none}
+a:active {text-decoration: none}
+a:hover {text-decoration: underline}
+
+.navLink {
+    margin: 0px 10px ;
+}
+
+.lesson{
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.lesson2 {
+    color: red;
+}
+
+.lesson3 {
+    color: orange;
+}
+
+.lesson4 {
+    color:  yellow;
+}
+
+.lesson7 {
+    color: navy;
+}
