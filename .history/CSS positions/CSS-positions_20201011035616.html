@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-positions</title>
+    <link href="CSS-positions.css " rel="stylesheet" type="text/css">
+</head>
+<body >
+    <div class="box static">static- domyślny</div>
+    <div class="box relative">relative- is positioned relative to its normal position<br>
+    ustawiłem 50px od lewa i góry</div>
+    <div class="box fixed">
+        <p>fixed- is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled</p>
+        <p>A fixed element does not leave a gap in the page where it would normally have been located</p>
+        <p> Czyli ogólnie strona załaduje go w to miejsce jakby strona normalnie się ładowała i na koniec tak jakby przy klei go w to miejsce na ekranie, przez co nawet jak będziemy przewijać stronę to zostanie w tym samym miejscu ekranu (nie zmieni miejsca ani w wysokości ani w szerokośći)</p>
+        <p> Chyba, że nadamy mu miejsce w którym ma się znaleźć, wtedy tak jakby nie jest brany pod uwagę w wstępnym layoucie strony, tylko dodawany na sam koniec (ja go ustawię w miejsce w prawym rogu po 50px od krawędzi)</p>
+    </div>
+    <div class="box absolute">absolute</div>
+    <div class="box sticky">sticky</div>
+    <div class="box">dodatkowy</div>
+    <div class="box">dodatkowy</div>
+    <div class="box">dodatkowy</div>
+</body>
+</html>

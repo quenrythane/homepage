@@ -1,0 +1,34 @@
+body {
+    background: purple;
+}
+
+.box{
+    box-sizing: border-box;
+    background: yellow;
+    width: 200px;
+    height: 200px ;
+    margin: 10px;
+    text-align: center;
+    padding: 10px 50%;
+    padding-top: 90px;
+}
+
+.static{
+    position: static;
+}
+
+.relative{
+
+}
+
+.fixed{
+
+}
+
+.absolute{
+
+}
+
+.sticky{
+
+}

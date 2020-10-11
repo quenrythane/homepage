@@ -1,0 +1,40 @@
+body {
+    background: purple;
+}
+
+.box{
+    box-sizing: border-box;
+    background: yellow;
+    width: 200px;
+    height: 200px ;
+    margin: 10px;
+    text-align: center;
+    padding: 10px ;
+    padding-top: 50px;
+    border: solid black 5px;
+}
+
+.static{
+    position: static;
+}
+
+.relative{
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.fixed{
+    position: fixed;
+    overflow: scroll;
+    right: 50px;
+    bottom: 50px;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.sticky{
+
+}

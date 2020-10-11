@@ -34,8 +34,13 @@ a:visited {text-decoration: none}
 a:active {text-decoration: none}
 a:hover {text-decoration: underline}
 
+.a {
+    color: black;
+}
+
 .navLink {
     margin: 0px 10px ;
+    background: purple;
 }
 
 .lesson{
@@ -58,3 +63,51 @@ a:hover {text-decoration: underline}
 .lesson7 {
     color: navy;
 }
+
+.kolumna {
+    display: inline-block;
+    width: 30%;
+    height: 1000px ;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: rgba(0,0,0,0.4);
+    padding: 10px ;
+}
+
+.inline {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    background: rgba(0,0,0,0.4);
+    padding: 10px ;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.overhidden {
+    overflow: hidden;
+}
+
+.overauto {
+    overflow: auto;
+}
+
+.okienko {
+    width: 800px;
+    max-width: 800px;
+    height: 800px;
+    overflow: hidden;
+}
+
+.pasek {
+    
+    width: 1000px;
+    
+    background: purple;
+}
+

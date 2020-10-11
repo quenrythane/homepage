@@ -1,0 +1,55 @@
+body {
+    background: purple;
+}
+
+.box{
+    box-sizing: border-box;
+    background: yellow;
+    width: 200px;
+    height: 200px ;
+    margin: 10px;
+    text-align: center;
+    padding: 10px ;
+    padding-top: 50px;
+    border: solid black 5px;
+    overflow: scroll;
+}
+
+.box2 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.static{
+    position: static;
+}
+
+.relative{
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.fixed{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.absolute{
+    position: absolute;
+    right: 250px;
+    top: 250px;
+}
+
+.absolute2 {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.sticky{
+    top: 100px;
+    position: sticky;
+}

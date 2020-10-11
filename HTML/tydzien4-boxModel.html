@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ćwiczenia WTF- Co ten frontend</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+
+
+<body>
+	<header>
+		<nav>
+			<a class="navLink" href="index.html">Strona główna</a>
+			<a class="navLink" href="nauka.html">Nauka.html</a>
+			<a class="navLink" href="html.html">HTML</a>
+			<a class="navLink" href="css.html">CSS</a>
+			<a class="navLink" href="js.html">JS</a>
+			<a class="navLink" href="tydzien3.html">Tydzień 3</a>
+			<a class="navLink" href="tydzien4.html">Tydzień 4</a>
+			<a class="navLink" href="tydzien5.html">Tydzień 5</a>
+		</nav>
+    </header>
+    
+
+	<main>
+		<header>
+			<h1 id="np_h1">Box model </h1>
+        </header>
+        
+        <section class="kolumna">
+            <h2> Kolumna 1- block</h2>
+            <article>
+                <div class="box">
+                    block 1 <br>
+                    block 2 <br>
+                    block 3 
+                </div>
+                <div class="box overhidden">
+                    block 1 <br>
+                    block 2 <br>
+                    Ten tekst jest za długi ale chowam go za pomocą overflow: hidden
+                </div>
+                <div class="box overauto">
+                    block 1 <br>
+                    block 2 <br>
+                    Ten tekst jest za długi ale chowam go za pomocą overflow: auto. Dzięki temu będzie można je przewijać za pomocą scrola
+                </div>
+                <div class="box">
+                    block 1 <br>
+                    block 2 <br>
+                    block 3  <br>
+                    Tu będzie test tego, że tekst wychodzi poza pudełko w sytuacji, gdy pudełko ma ustawione stałe lub graniczne romziary, które są za małe by pomieścić tekst zawarty w tym pudełku.
+                </div>
+            </article>
+        </section> 
+
+        <section class="kolumna">
+            <h2> Kolumna 2 inlineBlock</h2>
+            <article>
+                <div class="box .inlineBlock">
+                    block 1 <br>
+                    block 2 <br>
+                    block 3 
+                </div>
+                <div class="box .inlineBlock">
+                    block 1 <br>
+                    block 2 <br>
+                    block 3 
+                </div>
+                <div class="box .inlineBlock">
+                    block 1 <br>
+                    block 2 <br>
+                    block 3 
+                </div>
+                <div class="box .inlineBlock">
+                    block 1 <br>
+                    block 2 <br>
+                    block 3 
+                </div>
+            </article>
+        </section> 
+
+        <section class="kolumna">
+            <h2> Kolumna 3 inline</h2>
+            <article>
+                <div class=".inline">
+                    block 1 <br>
+                    block 2 <br>
+                    block 3 
+                </div>
+                <div class=".inline">
+                    block 1 <br>
+                    block 2 <br>
+                    block 3 
+                </div>
+                <div class=".inline">
+                    block 1 <br>
+                    block 2 <br>
+                    block 3 
+                </div>
+                <div class=".inline">
+                    block 1 <br>
+                    block 2 <br>
+                    block 3 
+                </div>
+            </article>
+        </section>
+
+        <section class="kolumna">
+            <h2> Kolumna 1- block</h2>
+            <div class="box okienko">
+                <div class="pasek">Pasek z nazwą</div>
+
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+	</main>
+
+	<footer>
+		Strona trningowa Artura Babińskiego
+	</footer>
+</body>
+
+</html>
